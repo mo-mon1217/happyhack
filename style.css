@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.fuwatAnime {
+    -webkit-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1.5s;
+    -ms-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-name: fuwatAnime;
+    -ms-animation-name: fuwatAnime;
+    animation-name: fuwatAnime;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes fuwatAnime {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes fuwatAnime {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+#header {
+    /*background-image: url("Images/hero.jpg");*/
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+}
+
+#nav {
+    float: right;
+    margin: 0 50px;
+    z-index: 2;
+}
+
+li {
+    float: left;
+    list-style: none;
+}
+
+#nav a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Futura";
+    font-size: 27px;
+    transition: 0.5s;
+    padding: 30px 15px;
+}
+
+#nav a:hover {
+    color: #3D5CDB;
+}
+
+
+
+#titles {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#titles img {
+    width: 900px;
+}
+
+#titles p {
+    color: #fff;
+    font-family: "Futura";
+    font-style: italic;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+
+}
+
+h2 {
+    color: #3d5cdb;
+    text-align: center;
+    padding: 40px;
+    font-size: 50px;
+    font-family: "Futura";
+}
+
+#introduction img {
+    width: 500px;
+    margin: 20px;
+}
+
+.intro-box {
+    text-align: center;
+    margin: 20px 20px;
+}
+
+.intro-box p {
+    width: 400px;
+    text-align: left;
+    margin: 0 auto 20px;
+    line-height: 2;
+}
+
+#intro-top {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#intro-bottom {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.intro-button {
+    display: block;
+    color: #fff;
+    background-color: #3D5CDB;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Futura";
+    width: 170px;
+    height: 40px;
+    margin: 30px auto;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 43px;
+}
+
+#intro-bottom .intro-button {
+    background-color: #ffbf00;
+}
+
+.course-top {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.course-bottom {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    background-color: #d6e6f9;
+}
+
+#courses {
+    background-color: #d6e6f9;
+}
+
+.course-box {
+    background-color: #fff;
+    width: 180px;
+    height: 280px;
+    border-radius: 8px;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.course-box img {
+    width: 110px;
+}
+
+.course-box p {
+    color: #183c61;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px;
+    padding-top: 20px;
+}
+
+.course-button {
+    display: block;
+    color: #fff;
+    background-color: #3D5CDB;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Futura";
+    width: 170px;
+    height: 40px;
+    margin: 30px auto;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+#course-html .course-button {
+    background: #F16529;
+}
+
+#course-css .course-button {
+    background: #29A9DF;
+}
+
+#course-unity .course-button {
+    background: #333333;
+}
+
+#course-ruby .course-button {
+    background: #FF5252;
+}
+
+#course-js .course-button {
+    background: #FED700;
+}
+
+#course-swift .course-button {
+    background: #FE7536;
+}
+
+#course-go .course-button {
+    background: #73CEDD;
+}
+
+.slider {
+    margin: 30px auto;
+    width: 80%;
+}
+
+.slider img {
+    height: auto;
+    width: 100%;
+}
+
+#access {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#footer {
+    color: #3d5cdb;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#particles-js {
+    position: absolute;
+    z-index: -1;
+}
