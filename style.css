@@ -160,24 +160,42 @@ h2 {
     background-color: #ffbf00;
 }
 
-.course-top {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-
-.course-bottom {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 40px;
-    background-color: #d6e6f9;
-}
-
 #courses {
     background-color: #d6e6f9;
 }
+
+#course-boxes {
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+/*
+@media screen and (max-width:768px) {
+    #course-boxes {
+        width: 750px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #course-boxes {
+        width: 1170px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+    }
+}
+*/
 
 .course-box {
     background-color: #fff;
@@ -187,10 +205,15 @@ h2 {
     margin: 10px;
     margin-top: 20px;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .course-box img {
-    height: 140px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
 }
 
 .course-box p {
@@ -198,7 +221,7 @@ h2 {
     font-size: 15px;
     font-weight: 600;
     margin: 10px;
-    padding-top: 20px;
+    padding-top: 20px
 }
 
 .course-button {
@@ -209,12 +232,13 @@ h2 {
     text-align: center;
     font-family: "Futura";
     width: 170px;
-    height: 40px;
-    margin: 30px auto;
+    height: 50px;
+    margin: 10px auto;
+    margin-bottom: 0px;
     border-radius: 12px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
-    line-height: 42px;
+    line-height: 50px;
 }
 
 #course-html .course-button {
@@ -267,6 +291,8 @@ h2 {
 }
 
 #particles-js {
+    width: 100%;
+    height: 500px;
     position: absolute;
     z-index: -1;
 }

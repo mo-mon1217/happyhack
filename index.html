@@ -3,8 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="jquery.bgswitcher.css">
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slick-theme.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="fuwat-move.js"></script>
     <script src="jquery.bgswitcher.js"></script>
@@ -42,7 +46,7 @@
 
 
     <div id="main">
-        <div id="introduction" class="fuwatAnime">
+        <div id="introduction" class="fuwat">
             <h2>Introduction</h2>
             <div id="intro-top">
                 <img src="Images/introduction_001.jpg" alt="">
@@ -54,7 +58,7 @@
                 </div>
             </div>
 
-            <div id="intro-bottom" class="fuwatAnime">
+            <div id="intro-bottom" class="fuwat">
                 <div class="intro-box">
                     <p>Happy Hackでは「楽しさ」と「真剣さ」をモットーにプログラミングを学びます。コースは全部で7つ準備をしています。<br>
                         WebデザインからWebサービス、3DゲームやiPhoneアプリまで幅広くお楽しみいただけます。<br>
@@ -65,10 +69,10 @@
             </div>
         </div>
 
-        <div id="courses" class="fuwatAnime">
+        <div id="courses" class="fuwat">
             <div id="particles-js"></div>
             <h2>Courses</h2>
-            <div class="course-top">
+            <div id="course-boxes">
                 <div class="course-box" id="course-html">
                     <img src="Images/html.png" alt="">
                     <p>HTMLコース</p>
@@ -92,9 +96,7 @@
                     <p>Rubyコース</p>
                     <a href="#courses" class="course-button">このコースを受ける</a>
                 </div>
-            </div>
 
-            <div class="course-bottom">
                 <div class="course-box" id="course-js">
                     <img src="Images/js.png" alt="">
                     <p>JavaScriptコース</p>
@@ -115,7 +117,7 @@
             </div>
         </div>
 
-        <div id="images" class="fuwatAnime">
+        <div id="images" class="fuwat">
             <h2>Images</h2>
             <div class="slider">
                 <img src="./images/background1.jpg" />
@@ -126,7 +128,7 @@
             </div>
         </div>
 
-        <div id="access" class="fuwatAnime">
+        <div id="access" class="fuwat">
             <h2>Access</h2>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3131287759825!2d135.49025991523217!3d34.697281280435405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f359905ed7%3A0x9fec1659611f776f!2zTGlmZSBpcyBUZWNoISDlpKfpmKrjgqrjg5XjgqPjgrk!5e0!3m2!1sja!2sjp!4v1613921558658!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
